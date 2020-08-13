@@ -12,6 +12,7 @@ public class ProjectClient {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
     private final Map<Long, ProjectInfo> projectsCache = new ConcurrentHashMap<>();
+
     private final RestOperations restOperations;
     private final String endpoint;
 
