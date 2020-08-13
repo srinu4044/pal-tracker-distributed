@@ -8,6 +8,7 @@ public class ProjectInfo {
         this(false);
     }
 
+
     public ProjectInfo(boolean active) {
         this.active = active;
     }
